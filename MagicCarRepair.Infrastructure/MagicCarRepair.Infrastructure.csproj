@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+        <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+        <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="9.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="9.0.0" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Logging" Version="9.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="9.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="9.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="9.0.0" />
+        <PackageReference Include="Scrutor" Version="4.2.2" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.0" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.0">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\MagicCarRepair.Application\MagicCarRepair.Application.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="Core.Packages.Application">
+        <HintPath>..\..\Core.Packages\Core.Packages.Infrastructure\bin\Debug\net9.0\Core.Packages.Application.dll</HintPath>
+      </Reference>
+      <Reference Include="Core.Packages.Domain">
+        <HintPath>..\..\Core.Packages\Core.Packages.Infrastructure\bin\Debug\net9.0\Core.Packages.Domain.dll</HintPath>
+      </Reference>
+      <Reference Include="Core.Packages.Infrastructure">
+        <HintPath>..\..\Core.Packages\Core.Packages.Infrastructure\bin\Debug\net9.0\Core.Packages.Infrastructure.dll</HintPath>
+      </Reference>
+      <Reference Include="Microsoft.Extensions.Logging.Configuration" />
+      <Reference Include="Microsoft.Extensions.Logging.Console" />
+    </ItemGroup>
+
+</Project>

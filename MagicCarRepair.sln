@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+#
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicCarRepair.Domain", "MagicCarRepair.Domain\MagicCarRepair.Domain.csproj", "{3DA35030-CBCD-43D1-BC36-B098262D1468}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicCarRepair.Application", "MagicCarRepair.Application\MagicCarRepair.Application.csproj", "{8477852E-96D2-4E80-A515-65AC193EC949}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicCarRepair.Infrastructure", "MagicCarRepair.Infrastructure\MagicCarRepair.Infrastructure.csproj", "{A7D9A8AB-39AD-4516-8057-3D73AA20C78F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MegicCarRepair.API", "MegicCarRepair.API\MegicCarRepair.API.csproj", "{CDA99ECA-395E-49F9-8276-832A6DC4DC77}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DA35030-CBCD-43D1-BC36-B098262D1468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DA35030-CBCD-43D1-BC36-B098262D1468}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DA35030-CBCD-43D1-BC36-B098262D1468}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DA35030-CBCD-43D1-BC36-B098262D1468}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8477852E-96D2-4E80-A515-65AC193EC949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8477852E-96D2-4E80-A515-65AC193EC949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8477852E-96D2-4E80-A515-65AC193EC949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8477852E-96D2-4E80-A515-65AC193EC949}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7D9A8AB-39AD-4516-8057-3D73AA20C78F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7D9A8AB-39AD-4516-8057-3D73AA20C78F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7D9A8AB-39AD-4516-8057-3D73AA20C78F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7D9A8AB-39AD-4516-8057-3D73AA20C78F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDA99ECA-395E-49F9-8276-832A6DC4DC77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDA99ECA-395E-49F9-8276-832A6DC4DC77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDA99ECA-395E-49F9-8276-832A6DC4DC77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDA99ECA-395E-49F9-8276-832A6DC4DC77}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
